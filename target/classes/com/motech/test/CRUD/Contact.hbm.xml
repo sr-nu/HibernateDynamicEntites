@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+
+    <class abstract="false" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.motech.test.CRUD.Contact" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="tbl_contact">
+
+        <id column="fld_id" name="id">
+            <generator class="native"/>
+        </id>
+
+        <property column="fld_name" generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false"/>
+
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="fld_email" generated="never" lazy="false" name="email" not-null="false" optimistic-lock="true" type="java.lang.String" unique="false"/></dynamic-component>
+    </class>
+</hibernate-mapping>
