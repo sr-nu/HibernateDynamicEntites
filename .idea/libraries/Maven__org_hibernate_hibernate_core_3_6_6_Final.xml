@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.6.6.Final/hibernate-core-3.6.6.Final-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

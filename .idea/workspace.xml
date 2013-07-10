@@ -9,9 +9,124 @@
     <file path="/Contact.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373022519904" ignored="false" />
     <file path="/CustomizableEntityManagerImpl.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373019516947" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373022450733" ignored="false" />
-    <file path="/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373179027620" ignored="false" />
-    <file path="/HibernateUtil.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373019165665" ignored="false" />
-    <file path="$PROJECT_DIR$/../Web-Related-Examples/Standalone-Hibernate-JPA/.idea/workspace.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373179795172" ignored="false" />
+    <file path="/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373357572980" ignored="false" />
+    <file path="/HibernateUtil.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373190040366" ignored="false" />
+    <file path="$PROJECT_DIR$/../Web-Related-Examples/Standalone-Hibernate-JPA/.idea/workspace.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373292117449" ignored="false" />
+    <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373434482005" ignored="false" />
+    <file path="/CustomEntityCreator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373438114641" ignored="false" />
+    <file path="/TestCustomEntity.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373434095695" ignored="false" />
+    <file path="$PROJECT_DIR$/../platform-communications/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
+    <file path="/Dummy.txt" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
+    <file path="$PROJECT_DIR$/../platform-communications/checkstyle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
+    <file path="$PROJECT_DIR$/../platform-communications/pmd.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
+    <file path="/a.dummy" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373371437448" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291724009" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/packaging/deb/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291724009" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/maven.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291724009" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/platform/server/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291724009" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/alerts/api/target/classes/META-INF/motech/applicationContextAlert.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/alerts/api/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/outbox/outbox-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/outbox/outbox-bundle/target/classes/META-INF/osgi/applicationOutboxBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/verboice-bundle/target/test-classes/META-INF/osgi/testIvrVerboiceOsgiContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/voxeo/target/classes/META-INF/motech/voxeoResources.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/outbox/outbox/target/classes/META-INF/motech/applicationOutbox.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/mrs/api/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/verboice-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/mrs/api/target/classes/META-INF/motech/applicationMrsAPI.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/verboice-bundle/target/classes/META-INF/osgi/ivrVerboiceOsgiContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/demo/demo/target/classes/META-INF/motech/applicationDemo.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/mrs/api/target/classes/META-INF/osgi/applicationMrsAPIBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/api-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/api/target/classes/META-INF/motech/applicationSmsAPI.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/cmslite/api/target/classes/META-INF/motech/applicationCmsLiteApi.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/asterisk-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/asterisk-bundle/target/classes/META-INF/osgi/applicationAsteriskBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/smpp-bundle/target/classes/META-INF/osgi/applicationSmsSmppBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/http-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/smpp-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/cmslite/api/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/kookoo-bundle/target/test-classes/META-INF/osgi/testIVRKookooContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/http-bundle/target/test-classes/META-INF/spring/testSmsHttpBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/api-bundle/target/classes/META-INF/osgi/applicationSmsAPIBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/outbox/outbox/target/classes/META-INF/motech/applicationOutboxAPI.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/kookoo-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/kookoo-bundle/target/classes/META-INF/osgi/ivrKookooOsgiContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/api-bundle/target/test-classes/META-INF/spring/testSmsApiBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/api/target/classes/META-INF/motech/applicationIvrApi.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759590" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/smpp/target/classes/META-INF/motech/applicationSmsSmpp.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/voxeo-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/voxeo-bundle/target/classes/META-INF/osgi/voxeoResourcesBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/openmrs/ws/target/classes/META-INF/motech/applicationOpenMrsWS.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/smpp-bundle/target/test-classes/META-INF/spring/testSmsSmppBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/demo/demo/target/classes/META-INF/servlet/applicationDemoBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/api-bundle/target/test-classes/META-INF/spring/testCallLogContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/asterisk/target/classes/META-INF/motech/applicationAsterisk.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/api-bundle/target/classes/META-INF/servlet/applicationIvrApiBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/voxeo-bundle/target/test-classes/META-INF/osgi/testVoxeoBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/http/target/classes/META-INF/motech/applicationSmsHttp.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/demo/demo/target/test-classes/META-INF/spring/testDemoBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/api-bundle/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/outbox/outbox-bundle/target/test-classes/META-INF/spring/testOutboxBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/kookoo/target/classes/META-INF/motech/ivrKookooContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/ivr/verboice/target/classes/META-INF/motech/ivrVerboiceContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/demo/demo/target/classes/META-INF/spring/blueprint.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/cmslite/api/target/test-classes/META-INF/spring/testCmsliteApiBundleContext.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../motech/modules/sms/http-bundle/target/classes/META-INF/osgi/applicationSmsHttpBundle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373291759591" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/Address.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/Company.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/Customer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/DataProxyHandler.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/ProxyHelper.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/Person.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer/MyEntityInstantiator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer/EntityNameInterceptor.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer/TuplizerDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer/MyEntityTuplizer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer2/MyEntityInstantiator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer2/MyEntityTuplizer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer2/ImprovedTuplizerDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/interceptor/ProxyInterceptor.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373357410739" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/interceptor/InterceptorDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373357395396" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373369585095" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer2/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/interceptor/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/package.html" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/resources/hibernate.cfg.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373370912924" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/resources/log4j.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354038973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/tuplizer/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/Person.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/ProxyHelper.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/Company.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/DataProxyHandler.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/Customer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/Address.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373354230957" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/hibernate.cfg.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373370921143" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/resources/hibernate.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367297909" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/log4j.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373370921143" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/interceptor/ProxyInterceptor.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367528507" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/motech/test/dynamicentity/interceptor/InterceptorDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367528507" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/tuplizer/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367643658" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/hibernate.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373370551175" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/interceptor/InterceptorDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/org/motech/test/dynamicentity/interceptor/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/ProxyHelper.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/interceptor/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/Customer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/Company.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/Address.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/DataProxyHandler.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/interceptor/ProxyInterceptor.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/target/classes/tuplizer2/Customer.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367643658" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/Person.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367622011" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer/EntityNameInterceptor.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367778722" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer/MyEntityInstantiator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367778722" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer/TuplizerDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373372496907" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer/MyEntityTuplizer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373371887941" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer2/MyEntityInstantiator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367790929" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer2/MyEntityTuplizer.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367790929" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hibernate_Dynamic_Entities/src/main/java/org/hibernate/test/dynamicentity/tuplizer2/ImprovedTuplizerDynamicEntityTest.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373367790929" ignored="false" />
+    <file path="/Contact.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373439478828" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +141,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -62,7 +178,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" line="20" class="com.motech.test.customEntity.CustomEntityCreator" package="com.motech.test.customEntity">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -72,37 +204,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Contact.hbm.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/Contact.hbm.xml">
+      <file leaf-file-name="XMLUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/XMLUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="55" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Contact.hbm.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/com/motech/test/CRUD/Contact.hbm.xml">
+        <entry file="file://$PROJECT_DIR$/target/classes/com/motech/test/Contact.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomizableEntityManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManagerImpl.java">
+      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="76" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+            <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MappingManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/MappingManager.java">
+      <file leaf-file-name="CustomEntityCreator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
+            <state line="62" column="37" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.3416252">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,55 +242,102 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomizableEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntity.java">
+      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+            <state line="3057" column="49" selection-start="103962" selection-end="103962" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#141059#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#30802#30836#0" expanded="false" />
+                <element signature="e#33902#33936#0" expanded="false" />
+                <element signature="e#36000#36008#0" expanded="false" />
+                <element signature="e#38093#38127#0" expanded="false" />
+                <element signature="e#38285#38293#0" expanded="false" />
+                <element signature="e#41122#41156#0" expanded="false" />
+                <element signature="e#41511#41519#0" expanded="false" />
+                <element signature="e#50059#50086#0" expanded="false" />
+                <element signature="e#50151#50165#0" expanded="false" />
+                <element signature="e#50910#50924#0" expanded="false" />
+                <element signature="e#51588#51602#0" expanded="false" />
+                <element signature="e#54045#54059#0" expanded="false" />
+                <element signature="e#54987#54995#0" expanded="false" />
+                <element signature="e#55043#55051#0" expanded="false" />
+                <element signature="e#56783#56817#0" expanded="false" />
+                <element signature="e#58363#58397#0" expanded="false" />
+                <element signature="e#124464#124508#0" expanded="false" />
+                <element signature="e#127420#127443#0" expanded="false" />
+                <element signature="e#127739#127749#0" expanded="false" />
+                <element signature="e#128200#128234#0" expanded="false" />
+                <element signature="e#128374#128398#0" expanded="false" />
+                <element signature="e#131547#131573#0" expanded="false" />
+                <element signature="e#131653#131674#0" expanded="false" />
+                <element signature="e#131787#131795#0" expanded="false" />
+                <element signature="e#131971#131987#0" expanded="false" />
+                <element signature="e#132219#132251#1" expanded="false" />
+                <element signature="e#132713#132720#0" expanded="false" />
+                <element signature="e#133259#133267#0" expanded="false" />
+                <element signature="e#137767#137775#0" expanded="false" />
+                <element signature="e#137906#137914#0" expanded="false" />
+                <element signature="e#137963#137971#0" expanded="false" />
+                <element signature="e#140460#140480#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtendedMappings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/ExtendedMappings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="42" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#1356#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mappings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Mappings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="233" column="27" selection-start="7298" selection-end="7298" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#24371#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#13631#13663#0" expanded="false" />
+                <element signature="e#14131#14163#0" expanded="false" />
+                <element signature="e#22081#22113#0" expanded="false" />
+                <element signature="e#22341#22373#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistentClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/mapping/PersistentClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="22" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#25384#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="54" selection-start="1342" selection-end="1348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/Contact.java">
+      <file leaf-file-name="TestCustomEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomizableEntityManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.5176849">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="62" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCustomEntities.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/TestCustomEntities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/XMLUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+            <state line="7" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,22 +355,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/Contact.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/HibernateUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/MappingManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/XmlUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/TestCustomEntitites.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/TestQueryCustomFields.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Contact.hbm.xml" />
         <option value="$PROJECT_DIR$/target/classes/com/motech/test/CRUD/Contact.hbm.xml" />
         <option value="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCreateCustomEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer/MyEntityInstantiator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer/entity/DataProxyHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/Contact.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/TestCustomizableEntities.java" />
+        <option value="$PROJECT_DIR$/target/classes/com/motech/test/Contact.hbm.xml" />
       </list>
     </option>
   </component>
@@ -208,7 +387,246 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="746" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>LESS</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>SASS/SCSS</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,6 +654,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,10 +735,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -364,14 +780,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Standalone-Hibernate-JPA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customEntity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,9 +824,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.intentionPowerPack" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform-communications/pom.xml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -394,19 +838,28 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.motech.test.customEntity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test" />
       <recent name="$PROJECT_DIR$/target" />
       <recent name="$PROJECT_DIR$/target/classes/com/motech/test/CRUD" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/target/classes" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/CRUD" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.motech.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCustomEntities">
+  <component name="RunManager" selected="Application.TestCustomEntity">
     <configuration default="false" name="StandaloneHibernateJPAExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,14 +882,36 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCustomEntities" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TestCustomizableEntities" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.motech.test.CRUD.*" />
+          <option name="PATTERN" value="com.motech.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.motech.test.CRUD.TestCustomEntities" />
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.TestCustomizableEntities" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hibernate_Standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestQueryCustomFields" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.motech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.TestQueryCustomFields" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,6 +923,34 @@
       <module name="standalone-hibernate-jpa" />
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCustomEntity" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.motech.test.customEntity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.customEntity.TestCustomEntity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hibernate_Standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -542,14 +1045,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.StandaloneHibernateJPAExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestCustomEntities" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestCustomEntities" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StandaloneHibernateJPAExample" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StandaloneHibernateJPAExample" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -567,20 +1074,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="746" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36800575" sideWeight="0.6712538" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -589,12 +1097,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5766773" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33070302" sideWeight="0.5782748" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42172524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040173" sideWeight="0.6819572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -663,119 +1170,166 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.6.6.Final/hibernate-core-3.6.6.Final.jar!/org/hibernate/mapping/SimpleValue.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="832" selection-end="832" vertical-scroll-proportion="1.0477941" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.6.6.Final/hibernate-core-3.6.6.Final.jar!/org/hibernate/cfg/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="634" column="0" selection-start="40877" selection-end="40877" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/TestQueryCustomFields.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CustomizableEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="56" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0">
+        <state line="6" column="5" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CustomizableEntityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-7.24">
+        <state line="8" column="17" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CustomizableEntityManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="16" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/TestCustomizableEntities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="44" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/Contact.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/XMLUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/motech/test/Contact.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
+        <state line="23" column="54" selection-start="1342" selection-end="1348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/motech/test/CRUD/Contact.hbm.xml">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="3057" column="49" selection-start="103962" selection-end="103962" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#141059#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#30802#30836#0" expanded="false" />
+            <element signature="e#33902#33936#0" expanded="false" />
+            <element signature="e#36000#36008#0" expanded="false" />
+            <element signature="e#38093#38127#0" expanded="false" />
+            <element signature="e#38285#38293#0" expanded="false" />
+            <element signature="e#41122#41156#0" expanded="false" />
+            <element signature="e#41511#41519#0" expanded="false" />
+            <element signature="e#50059#50086#0" expanded="false" />
+            <element signature="e#50151#50165#0" expanded="false" />
+            <element signature="e#50910#50924#0" expanded="false" />
+            <element signature="e#51588#51602#0" expanded="false" />
+            <element signature="e#54045#54059#0" expanded="false" />
+            <element signature="e#54987#54995#0" expanded="false" />
+            <element signature="e#55043#55051#0" expanded="false" />
+            <element signature="e#56783#56817#0" expanded="false" />
+            <element signature="e#58363#58397#0" expanded="false" />
+            <element signature="e#124464#124508#0" expanded="false" />
+            <element signature="e#127420#127443#0" expanded="false" />
+            <element signature="e#127739#127749#0" expanded="false" />
+            <element signature="e#128200#128234#0" expanded="false" />
+            <element signature="e#128374#128398#0" expanded="false" />
+            <element signature="e#131547#131573#0" expanded="false" />
+            <element signature="e#131653#131674#0" expanded="false" />
+            <element signature="e#131787#131795#0" expanded="false" />
+            <element signature="e#131971#131987#0" expanded="false" />
+            <element signature="e#132219#132251#1" expanded="false" />
+            <element signature="e#132713#132720#0" expanded="false" />
+            <element signature="e#133259#133267#0" expanded="false" />
+            <element signature="e#137767#137775#0" expanded="false" />
+            <element signature="e#137906#137914#0" expanded="false" />
+            <element signature="e#137963#137971#0" expanded="false" />
+            <element signature="e#140460#140480#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/Contact.hbm.xml">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/ExtendedMappings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="55" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="36" column="42" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1356#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/HibernateUtil.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Mappings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="62" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="233" column="27" selection-start="7298" selection-end="7298" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#24371#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#13631#13663#0" expanded="false" />
+            <element signature="e#14131#14163#0" expanded="false" />
+            <element signature="e#22081#22113#0" expanded="false" />
+            <element signature="e#22341#22373#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/MappingManager.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/mapping/PersistentClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
+        <state line="53" column="22" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#25384#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/XMLUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+        <state line="62" column="37" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.3416252">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="76" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/TestCustomEntities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/CRUD/CustomizableEntityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.5176849">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +1361,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -842,7 +1396,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>standalone-hibernate-jpa</last-edited>
+          <last-edited>Hibernate_Standalone</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
