@@ -24,10 +24,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Hibernate_Standalone" />
         <module name="standalone-hibernate-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Hibernate_Standalone" target="1.6" />
       <module name="standalone-hibernate-jpa" target="1.6" />
     </bytecodeTargetLevel>
   </component>

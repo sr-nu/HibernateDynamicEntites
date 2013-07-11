@@ -1,0 +1,189 @@
+07-10 17:14:20 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-10 17:20:11 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-10 17:21:45 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-10 17:23:32 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-10 17:23:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_0_ from Person person0_ where person0_.id=? [42102-172]
+07-10 17:24:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-10 17:25:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_0_ from Person person0_ where person0_.id=? [42102-172]
+07-10 17:26:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 11:47:15 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 12:44:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 12:52:34 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 12:53:57 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 12:56:53 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 12:59:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:01:37 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:02:16 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:04:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:05:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Schema "COM" not found; SQL statement:
+Insert into com.motech.test.Person (id) values ? [90079-172]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.Parser.getSchema(Parser.java:613)
+	at org.h2.command.Parser.getSchema(Parser.java:620)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4808)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4802)
+	at org.h2.command.Parser.parseInsert(Parser.java:966)
+	at org.h2.command.Parser.parsePrepared(Parser.java:375)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:218)
+	at org.h2.engine.Session.prepareLocal(Session.java:425)
+	at org.h2.engine.Session.prepareCommand(Session.java:374)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267)
+	at org.hibernate.jdbc.AbstractBatcher.getPreparedStatement(AbstractBatcher.java:534)
+	at org.hibernate.jdbc.AbstractBatcher.prepareStatement(AbstractBatcher.java:116)
+	at org.hibernate.jdbc.AbstractBatcher.prepareStatement(AbstractBatcher.java:109)
+	at org.hibernate.jdbc.AbstractBatcher.prepareBatchStatement(AbstractBatcher.java:244)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2411)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2874)
+	at org.hibernate.action.EntityInsertAction.execute(EntityInsertAction.java:79)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:273)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:265)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:184)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:51)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1216)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:383)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:133)
+	at com.motech.test.customEntity.TestCustomEntity.main(TestCustomEntity.java:17)
+07-11 13:05:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO 'com.motech.test.Person (id)'[*] VALUES ? "; expected "identifier"; SQL statement:
+Insert into 'com.motech.test.Person (id)' values ? [42001-172]
+07-11 13:05:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO 'com.motech.test.Person'[*] (ID) VALUES ? "; expected "identifier"; SQL statement:
+Insert into 'com.motech.test.Person' (id) values ? [42001-172]
+07-11 13:06:18 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+Insert into Person (id,name) values ? [42102-172]
+07-11 13:10:45 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:10:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:12:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 13:12:41 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select person0_.id as id0_ from Person person0_ [42102-172]
+07-11 14:47:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 15:09:19 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 15:10:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into PERSON (id) values (?) [42102-172]
+07-11 15:17:11 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into Person (id) values (?) [42102-172]
+07-11 15:20:53 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:22:19 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.person (id) values (?) [42102-172]
+07-11 15:22:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:23:01 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:27:13 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+select * from person [42102-172]
+07-11 15:30:40 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:32:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:35:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:41:14 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:42:15 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:43:02 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:43:16 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:45:05 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:45:25 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:46:06 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:48:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:48:22 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:48:37 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 15:50:41 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 16:00:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into test.public.PERSON (id) values (?) [42102-172]
+07-11 16:58:18 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into PUBLIC.PERSON (id) values (?) [42102-172]
+07-11 16:58:53 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into PUBLIC.PERSON (id) values (?) [42102-172]
+07-11 16:59:16 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" not found; SQL statement:
+insert into PUBLIC.PERSON (id) values (?) [42102-172]
