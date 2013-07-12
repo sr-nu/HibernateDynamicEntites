@@ -38,7 +38,7 @@ public class CustomEntityCreator {
         Property id_prop = new Property();
         id_prop.setName("id");
         id_prop.setValue(id_val);
-        id_prop.setGeneration(PropertyGeneration.NEVER);
+        id_prop.setGeneration(PropertyGeneration.INSERT);
 
 
         PrimaryKey primaryKey = new PrimaryKey();
@@ -46,10 +46,26 @@ public class CustomEntityCreator {
         primaryKey.setTable(tab);
         primaryKey.addColumn(id_col);
 
-        tab.addColumn(id_col);
 
+        SimpleValue name_val = new SimpleValue(mappings, tab);
+        name_val.setTypeName("java.lang.String");
+
+        Column name_col = new Column("USER_NAME");
+        name_col.setSqlType(dialect.getTypeName(Types.VARCHAR,255,0,0));
+        name_col.setValue(name_val);
+
+        name_val.addColumn(name_col);
+
+        Property name_prop = new Property();
+        name_prop.setName("user");
+        name_prop.setValue(name_val);
+
+
+
+        tab.addColumn(id_col);
         tab.setPrimaryKey(primaryKey);
 
+        tab.addColumn(name_col);
 
 
         RootClass clazz = new RootClass();
@@ -60,6 +76,7 @@ public class CustomEntityCreator {
         clazz.setTable(tab);
         clazz.setIdentifier(id_val);
         clazz.setIdentifierProperty(id_prop);
+        clazz.addProperty(name_prop);
 
 
         mappings.addClass(clazz);

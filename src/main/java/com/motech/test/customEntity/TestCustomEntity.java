@@ -12,8 +12,8 @@ public class TestCustomEntity {
         SessionFactory sessionFactory = new CustomEntityCreator().getSessionFactory();
         Session session = sessionFactory.openSession();
         Person person = new Person();
-        person.setId(23);
-        person.setUser("testUser");
+        person.setId(27);
+        person.setUser("testUser2");
         Transaction transaction = session.beginTransaction();
         session.save(person);
         transaction.commit();
@@ -24,10 +24,15 @@ public class TestCustomEntity {
         System.out.println("Number of entities:"+ list.size());
 
         for (Object o : list) {
-            {
                 System.out.println(o);
-            }
+        }
 
+        session1.close();
+
+        Session session2 = sessionFactory.openSession();
+        List list1 = session2.createQuery("From com.motech.test.customEntity.Person").list();
+        for (Object o : list1) {
+            System.out.println(((Person) o).getId() +" : : "+((Person) o).getUser());
         }
 
 
