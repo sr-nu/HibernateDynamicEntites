@@ -13,7 +13,7 @@
     <file path="/HibernateUtil.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373190040366" ignored="false" />
     <file path="$PROJECT_DIR$/../Web-Related-Examples/Standalone-Hibernate-JPA/.idea/workspace.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373292117449" ignored="false" />
     <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373541585050" ignored="false" />
-    <file path="/CustomEntityCreator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373612012790" ignored="false" />
+    <file path="/CustomEntityCreator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373614507538" ignored="false" />
     <file path="/TestCustomEntity.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373542655291" ignored="false" />
     <file path="$PROJECT_DIR$/../platform-communications/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
     <file path="/Dummy.txt" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
@@ -192,7 +192,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/TestCustomizableEntities.java" line="38" class="com.motech.test.TestCustomizableEntities" package="com.motech.test">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/TestCustomizableEntities.java" line="38" class="com.motech.test.entityExtensions.TestCustomizableEntities" package="com.motech.test.entityExtensions">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -282,7 +282,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" line="67" class="com.motech.test.customEntity.CustomEntityCreator" package="com.motech.test.customEntity">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" line="69" class="com.motech.test.customEntity.CustomEntityCreator" package="com.motech.test.customEntity">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -334,10 +334,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomEntityCreator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CustomEntityCreator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
+            <state line="31" column="8" selection-start="908" selection-end="1005" vertical-scroll-proportion="-0.030303031">
               <folding />
             </state>
           </provider>
@@ -365,10 +365,7 @@
         <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/impl/SessionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="390" column="0" selection-start="13292" selection-end="13292" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#74430#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -377,18 +374,15 @@
         <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/transaction/JDBCTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="156" column="19" selection-start="4766" selection-end="4766" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#7337#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCustomEntity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestCustomEntity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.4225352">
+            <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -418,8 +412,8 @@
         <option value="db-console:/4543b7ce/01ededc7-a2fc-4e9b-a69e-8da720b6b70d/" />
         <option value="db-console:/4543b7ce/ba7a7433-91ed-4457-bc7c-5e0ff7906723/" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" />
       </list>
     </option>
   </component>
@@ -708,7 +702,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -775,9 +768,44 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entityExtensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Standalone-Hibernate-JPA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customEntity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -796,9 +824,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -822,7 +850,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestQueryCustomFields">
+  <component name="RunManager" selected="Application.TestCustomEntity">
     <configuration default="false" name="StandaloneHibernateJPAExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -931,19 +959,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -970,6 +985,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1022,9 +1050,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
         <item index="3" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
         <item index="4" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
       </list>
@@ -1062,14 +1090,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.62079513" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.62232417" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25382262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1084,12 +1111,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27403155" sideWeight="0.64220184" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1886657" sideWeight="0.62079513" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1886657" sideWeight="0.62232417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37767583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.68501526" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3792049" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1158,6 +1186,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Mappings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="298" column="17" selection-start="9535" selection-end="9535" vertical-scroll-proportion="0.0">
@@ -1181,32 +1216,23 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/action/EntityInsertAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="0" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="134" column="0" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/event/def/AbstractFlushingEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="325" column="0" selection-start="11344" selection-end="11344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="325" column="0" selection-start="11344" selection-end="11344" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/event/def/DefaultFlushEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="58" column="0" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/impl/SessionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="390" column="0" selection-start="13292" selection-end="13292" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#74430#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,23 +1260,6 @@
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/transaction/JDBCTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="156" column="19" selection-start="4766" selection-end="4766" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#7337#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="77" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1262,9 +1271,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="77" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.4225352">
+        <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="8" selection-start="908" selection-end="1005" vertical-scroll-proportion="-0.030303031">
           <folding />
         </state>
       </provider>

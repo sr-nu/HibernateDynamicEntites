@@ -308,5 +308,11 @@
       <column name="REMARKS" sqlType="VARCHAR" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
+    <table name="TBL_CONTACT" schema="PUBLIC" catalog="MOTECHTEST" type="TABLE">
+      <column name="FLD_ID" sqlType="INTEGER" length="10" precision="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfQzU5MDM3MkJfMjM5Ml80NkU2X0I5NzlfMTMwNUI1MEUwQzNDKQ==" autoIncrement="true"/>
+      <column name="FLD_NAME" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="FLD_EMAIL" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_C" columns="FLD_ID"/>
+    </table>
   </data-source>
 </component>

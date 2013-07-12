@@ -46,7 +46,10 @@ public class CustomEntityCreator {
         primaryKey.setTable(tab);
         primaryKey.addColumn(id_col);
 
+        tab.addColumn(id_col);
+
         tab.setPrimaryKey(primaryKey);
+
 
 
         RootClass clazz = new RootClass();
@@ -61,7 +64,6 @@ public class CustomEntityCreator {
 
         mappings.addClass(clazz);
 
-        tab.addColumn(id_col);
         mappings.addTableBinding("PUBLIC", null,"PERSON", "PERSON", null);
 
 
