@@ -8,18 +8,21 @@ import java.util.List;
 
 public class TestCustomEntity {
 
+    private static String tableName;
+
     public static void main(String[] args) {
-        SessionFactory sessionFactory = new CustomEntityCreator().getSessionFactory();
+        tableName = "PERSON";
+        SessionFactory sessionFactory = new CustomEntityCreator().getSessionFactory(Person.class.getName(), tableName);
         Session session = sessionFactory.openSession();
         Person person = new Person();
-        person.setId(27);
+        person.setId(28);
         person.setUser("testUser2");
         Transaction transaction = session.beginTransaction();
         session.save(person);
         transaction.commit();
 
         Session session1 = sessionFactory.openSession();
-        List list = session1.createSQLQuery("select * from Person").list();
+        List list = session1.createSQLQuery("select * from "+tableName).list();
 
         System.out.println("Number of entities:"+ list.size());
 
@@ -37,4 +40,7 @@ public class TestCustomEntity {
 
 
     }
+
+
+
 }

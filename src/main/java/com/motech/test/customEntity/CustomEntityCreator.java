@@ -16,7 +16,7 @@ import java.sql.Types;
 
 public class CustomEntityCreator {
 
-    public SessionFactory getSessionFactory() {
+    public SessionFactory getSessionFactory(String className, String tableName) {
         Configuration configuration = new Configuration().configure();
         Mappings mappings = configuration.createMappings();
 
@@ -25,7 +25,7 @@ public class CustomEntityCreator {
 
         // physical model
 
-        Table tab  = mappings.addTable("PUBLIC", null, "PERSON", null, false);
+        Table tab  = mappings.addTable("PUBLIC", null, tableName, null, false);
 
         Column id_col = new Column("id");
         id_col.setSqlType(dialect.getTypeName(Types.INTEGER));
@@ -69,10 +69,10 @@ public class CustomEntityCreator {
 
 
         RootClass clazz = new RootClass();
-        clazz.setClassName(Person.class.getName());
-        clazz.setProxyInterfaceName(Person.class.getName());
-        clazz.setEntityName(Person.class.getName());
-        clazz.setJpaEntityName(Person.class.getName());
+        clazz.setClassName(className);
+        clazz.setProxyInterfaceName(className);
+        clazz.setEntityName(className);
+        clazz.setJpaEntityName(className);
         clazz.setTable(tab);
         clazz.setIdentifier(id_val);
         clazz.setIdentifierProperty(id_prop);
@@ -81,7 +81,7 @@ public class CustomEntityCreator {
 
         mappings.addClass(clazz);
 
-        mappings.addTableBinding("PUBLIC", null,"PERSON", "PERSON", null);
+        mappings.addTableBinding("PUBLIC", null, tableName, tableName, null);
 
 
         return configuration.buildSessionFactory();
