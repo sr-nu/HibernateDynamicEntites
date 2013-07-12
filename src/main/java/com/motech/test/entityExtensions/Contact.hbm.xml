@@ -5,7 +5,7 @@
 
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
 
-    <class abstract="false" name="com.motech.test.Contact" table="tbl_contact">
+    <class abstract="false" name="com.motech.test.entityExtensions.Contact" table="tbl_contact">
 
         <id column="fld_id" name="id">
             <generator class="native"/>

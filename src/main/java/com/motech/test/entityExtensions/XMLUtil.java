@@ -1,4 +1,4 @@
-package com.motech.test;
+package com.motech.test.entityExtensions;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

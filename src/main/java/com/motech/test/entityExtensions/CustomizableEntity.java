@@ -1,4 +1,4 @@
-package com.motech.test;
+package com.motech.test.entityExtensions;
 
 import java.util.Map;
 import java.util.HashMap;

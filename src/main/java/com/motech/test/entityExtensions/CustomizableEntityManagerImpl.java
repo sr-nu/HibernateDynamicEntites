@@ -1,4 +1,4 @@
-package com.motech.test;
+package com.motech.test.entityExtensions;
 
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Mappings;

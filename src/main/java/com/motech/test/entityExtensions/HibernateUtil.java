@@ -1,4 +1,4 @@
-package com.motech.test;
+package com.motech.test.entityExtensions;
 
 import org.hibernate.FlushMode;
 import org.hibernate.HibernateException;

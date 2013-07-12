@@ -1,4 +1,4 @@
-package com.motech.test;
+package com.motech.test.entityExtensions;
 
 
 public class Contact extends CustomizableEntity {
