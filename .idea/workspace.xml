@@ -12,7 +12,7 @@
     <file path="/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373456161684" ignored="false" />
     <file path="/HibernateUtil.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373190040366" ignored="false" />
     <file path="$PROJECT_DIR$/../Web-Related-Examples/Standalone-Hibernate-JPA/.idea/workspace.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373292117449" ignored="false" />
-    <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373541585050" ignored="false" />
+    <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373628890359" ignored="false" />
     <file path="/CustomEntityCreator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373627454214" ignored="false" />
     <file path="/TestCustomEntity.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373627502126" ignored="false" />
     <file path="$PROJECT_DIR$/../platform-communications/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
@@ -131,7 +131,7 @@
     <file path="/Data Source" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373542409745" ignored="false" />
     <file path="/log4j.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373538031426" ignored="false" />
     <file path="/PojoGenerator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373625682324" ignored="false" />
-    <file path="/TestPOJOGeneration.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373627908782" ignored="false" />
+    <file path="/TestPOJOGeneration.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373630496636" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,6 +327,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DynamicEntityPersister.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="78" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AbstractEntityPersister.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/persister/entity/AbstractEntityPersister.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -354,15 +363,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2123" column="0" selection-start="71941" selection-end="71941" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestCustomEntity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -375,10 +375,10 @@
       <file leaf-file-name="TestPOJOGeneration.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="35" selection-start="719" selection-end="724" vertical-scroll-proportion="0.21327014">
+            <state line="22" column="100" selection-start="885" selection-end="885" vertical-scroll-proportion="0.30068338">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#738#756#0" expanded="true" />
+                <element signature="e#681#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -405,8 +405,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer/entity/DataProxyHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/Contact.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/TestCustomizableEntities.java" />
         <option value="$PROJECT_DIR$/target/classes/com/motech/test/Contact.hbm.xml" />
@@ -420,7 +418,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/PojoGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/CustomEntityCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java" />
       </list>
     </option>
   </component>
@@ -867,6 +867,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.motech.test.pojoGeneration" />
       <recent name="com.motech.test.customEntity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -876,15 +877,15 @@
       <recent name="$PROJECT_DIR$/target" />
       <recent name="$PROJECT_DIR$/target/classes/com/motech/test/CRUD" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.motech.test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions" />
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/target/classes" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.motech.test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestPOJOGeneration">
@@ -1162,7 +1163,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.853211" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.87920487" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25382262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1177,8 +1178,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27403155" sideWeight="0.64220184" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.853211" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14678898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.87920487" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12079511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.68501526" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1252,20 +1253,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/Contact.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="22" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/engine/ActionQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="189" column="0" selection-start="6249" selection-end="6249" vertical-scroll-proportion="0.0" />
@@ -1297,15 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/4543b7ce/a705d97e-5c09-47f4-a075-ab1e747c9492/MOTECHTEST.PUBLIC.PERSON">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -1332,13 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
@@ -1351,12 +1322,42 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="719" selection-end="724" vertical-scroll-proportion="0.21327014">
+        <state line="27" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#738#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/sql/Types.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="32" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="78" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="100" selection-start="885" selection-end="885" vertical-scroll-proportion="0.30068338">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#681#699#0" expanded="true" />
           </folding>
         </state>
       </provider>

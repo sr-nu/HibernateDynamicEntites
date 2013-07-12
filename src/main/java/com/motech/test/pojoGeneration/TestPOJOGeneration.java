@@ -1,6 +1,5 @@
 package com.motech.test.pojoGeneration;
 
-import com.motech.test.customEntity.CustomEntityCreator;
 import javassist.CannotCompileException;
 import javassist.NotFoundException;
 import org.hibernate.SessionFactory;
@@ -23,11 +22,13 @@ public class TestPOJOGeneration {
 
         Class newPersonClass = PojoGenerator.generate("com.motech.test.pojoGeneration.NewPerson", props);
         Object newPersonInstance = newPersonClass.newInstance();
-        newPersonClass.getMethod("setId", Integer.class).invoke(newPersonInstance, 34);
+        newPersonClass.getMethod("setId", Integer.class).invoke(newPersonInstance, 35);
         newPersonClass.getMethod("setUser", String.class).invoke(newPersonInstance,"testUser2");
+        String className = newPersonClass.getName();
 
 
-        SessionFactory sessionFactory = new CustomEntityCreator().getSessionFactory(newPersonClass.getName(), tableName);
+
+        SessionFactory sessionFactory = new DynamicEntityPersister().getSessionFactory(className, tableName);
         Session session = sessionFactory.openSession();
 
         Transaction transaction = session.beginTransaction();
@@ -46,15 +47,11 @@ public class TestPOJOGeneration {
         session1.close();
 
         Session session2 = sessionFactory.openSession();
-        List list1 = session2.createQuery("From "+newPersonClass.getName()).list();
+        List list1 = session2.createQuery("From "+ className).list();
         for (Object o : list1) {
             System.out.println(newPersonClass.getMethod("getId").invoke(o)+ " :: " + newPersonClass.getMethod("getUser").invoke(o));
         }
 
-
-
     }
-
-
 
 }
