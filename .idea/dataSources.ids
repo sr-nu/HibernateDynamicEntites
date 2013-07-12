@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Data Source" product="H2" version="1.3.172 (2013-05-25)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.172 (2013-05-25)" uuid="55f3dcc7-6ec3-412b-907f-7cb3afbcd28d">
+  <data-source source="LOCAL" name="Data Source" product="H2" version="1.3.172 (2013-05-25)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.172 (2013-05-25)" uuid="a705d97e-5c09-47f4-a075-ab1e747c9492">
     <identifier-quote-string>&quot;</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>org.h2.Driver</jdbc-driver>
@@ -306,9 +306,6 @@
       <column name="IS_UPDATABLE" sqlType="VARCHAR" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="STATUS" sqlType="VARCHAR" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="REMARKS" sqlType="VARCHAR" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
-      <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-    </table>
-    <table name="PERSON" schema="PUBLIC" catalog="MOTECHTEST" type="TABLE">
       <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
   </data-source>

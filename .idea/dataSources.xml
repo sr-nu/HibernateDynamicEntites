@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1861447861">
-    <data-source source="LOCAL" name="Data Source" product="H2" version="1.3.172 (2013-05-25)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.172 (2013-05-25)" uuid="55f3dcc7-6ec3-412b-907f-7cb3afbcd28d">
+  <component name="DataSourceManagerImpl" format="xml" hash="389775632">
+    <data-source source="LOCAL" name="Data Source" product="H2" version="1.3.172 (2013-05-25)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.172 (2013-05-25)" uuid="a705d97e-5c09-47f4-a075-ab1e747c9492">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
