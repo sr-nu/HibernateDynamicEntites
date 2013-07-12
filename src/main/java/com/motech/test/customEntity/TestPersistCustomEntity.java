@@ -6,7 +6,7 @@ import org.hibernate.classic.Session;
 
 import java.util.List;
 
-public class TestCustomEntity {
+public class TestPersistCustomEntity {
 
     private static String tableName;
 

@@ -363,31 +363,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCustomEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
+      <file leaf-file-name="TestPersistCustomEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestPersistCustomEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+            <state line="17" column="23" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPOJOGeneration.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java">
+      <file leaf-file-name="TestPersistGeneratedPojoEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPersistGeneratedPojoEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="100" selection-start="885" selection-end="885" vertical-scroll-proportion="0.30068338">
+            <state line="22" column="100" selection-start="897" selection-end="897" vertical-scroll-proportion="4.1538463">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#681#699#0" expanded="true" />
+                <element signature="e#693#711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PojoGenerator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PojoGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+            <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.6454918">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -888,7 +888,7 @@
       <recent name="com.motech.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPOJOGeneration">
+  <component name="RunManager" selected="Application.TestPersistGeneratedPojoEntity">
     <configuration default="false" name="StandaloneHibernateJPAExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -911,14 +911,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCustomEntity" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TestPersistCustomEntity" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.motech.test.customEntity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.motech.test.customEntity.TestCustomEntity" />
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.customEntity.TestPersistCustomEntity" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -983,14 +983,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestPOJOGeneration" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TestPersistGeneratedPojoEntity" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.motech.test.pojoGeneration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.motech.test.pojoGeneration.TestPOJOGeneration" />
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.pojoGeneration.TestPersistGeneratedPojoEntity" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1110,15 +1110,15 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.StandaloneHibernateJPAExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
       <item index="2" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
       <item index="3" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestPOJOGeneration" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestPOJOGeneration" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCustomEntity" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
         <item index="2" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
         <item index="3" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
         <item index="4" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
@@ -1157,7 +1157,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,7 +1178,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27403155" sideWeight="0.64220184" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.87920487" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.87920487" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12079511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.68501526" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1310,9 +1310,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestPersistCustomEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+        <state line="17" column="23" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1329,19 +1329,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/sql/Types.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="32" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.33333334">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPersistGeneratedPojoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="100" selection-start="897" selection-end="897" vertical-scroll-proportion="4.1538463">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#711#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,12 +1353,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="100" selection-start="885" selection-end="885" vertical-scroll-proportion="0.30068338">
+        <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.6454918">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#681#699#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TestPOJOGeneration {
+public class TestPersistGeneratedPojoEntity {
 
     private static String tableName = "NEW_PERSON";
 
