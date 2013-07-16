@@ -5,16 +5,15 @@
 
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
 
-    <class abstract="false" name="com.motech.test.entityExtensions.Contact" table="tbl_contact">
+    <class abstract="false" name="com.motech.test.persistEntityDefinition.TableDefinition" table="tbl_table_definition">
 
         <id column="fld_id" name="id">
             <generator class="native"/>
         </id>
 
-        <property name="name" column="fld_name" type="string" />
+        <property name="tableName" column="fld_table_name" type="string"/>
+        <property name="tableDefinition" column="fld_table_definition" type="string"/>
 
-        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true">
 
-        </dynamic-component>
     </class>
 </hibernate-mapping>

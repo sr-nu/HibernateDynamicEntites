@@ -22,20 +22,20 @@ public class TestPersistGeneratedPojoEntity {
 
         Class newPersonClass = PojoGenerator.generate("com.motech.test.pojoGeneration.NewPerson", props);
         Object newPersonInstance = newPersonClass.newInstance();
-        newPersonClass.getMethod("setId", Integer.class).invoke(newPersonInstance, 35);
+        newPersonClass.getMethod("setId", Integer.class).invoke(newPersonInstance, 36);
         newPersonClass.getMethod("setUser", String.class).invoke(newPersonInstance,"testUser2");
         String className = newPersonClass.getName();
 
 
-
-        SessionFactory sessionFactory = new DynamicEntityPersister().getSessionFactory(className, tableName);
+        SessionFactory sessionFactory = new DynamicEntityPersister().getSessionFactory(className, tableName, props);
         Session session = sessionFactory.openSession();
 
         Transaction transaction = session.beginTransaction();
         session.save(newPersonInstance);
         transaction.commit();
+        session.close();
 
-        Session session1 = sessionFactory.openSession();
+        Session session1 = new DynamicEntityPersister().getSessionFactory(className, tableName, props).openSession();
         List list = session1.createSQLQuery("select * from "+tableName).list();
 
         System.out.println("Number of entities:" + list.size());

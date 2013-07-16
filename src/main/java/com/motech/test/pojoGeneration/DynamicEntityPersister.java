@@ -13,10 +13,13 @@ import org.hibernate.mapping.SimpleValue;
 import org.hibernate.mapping.Table;
 
 import java.sql.Types;
+import java.util.Map;
 
 public class DynamicEntityPersister {
 
-    public SessionFactory getSessionFactory(String className, String tableName) {
+    public SessionFactory getSessionFactory(String className, String tableName, Map<String, Class<?>> props) {
+
+
         Configuration configuration = new Configuration().configure();
         Mappings mappings = configuration.createMappings();
 

@@ -6,17 +6,17 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/StandaloneHibernateJPAExample.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373005294635" ignored="false" />
     <file path="/Item.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373006025636" ignored="false" />
-    <file path="/Contact.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373022519904" ignored="false" />
+    <file path="/Contact.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373885523729" ignored="false" />
     <file path="/CustomizableEntityManagerImpl.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373019516947" ignored="false" />
-    <file path="/hibernate.cfg.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373615951278" ignored="false" />
+    <file path="/hibernate.cfg.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373890265958" ignored="false" />
     <file path="/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373456161684" ignored="false" />
     <file path="/HibernateUtil.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373190040366" ignored="false" />
     <file path="$PROJECT_DIR$/../Web-Related-Examples/Standalone-Hibernate-JPA/.idea/workspace.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373292117449" ignored="false" />
-    <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373628890359" ignored="false" />
+    <file path="/fragment.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373888681283" ignored="false" />
     <file path="/CustomEntityCreator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373627454214" ignored="false" />
     <file path="/TestCustomEntity.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373627502126" ignored="false" />
     <file path="$PROJECT_DIR$/../platform-communications/pom.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
-    <file path="/Dummy.txt" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
+    <file path="/Dummy.txt" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373886764609" ignored="false" />
     <file path="$PROJECT_DIR$/../platform-communications/checkstyle.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
     <file path="$PROJECT_DIR$/../platform-communications/pmd.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373275791725" ignored="false" />
     <file path="/a.dummy" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373371437448" ignored="false" />
@@ -132,6 +132,14 @@
     <file path="/log4j.properties" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373538031426" ignored="false" />
     <file path="/PojoGenerator.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373625682324" ignored="false" />
     <file path="/TestPOJOGeneration.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373630496636" ignored="false" />
+    <file path="/TestPersistGeneratedPojoEntity.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373868980394" ignored="false" />
+    <file path="/TableDefinition.hbm.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373885507203" ignored="false" />
+    <file path="/TableDefinition.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373884146283" ignored="false" />
+    <file path="/TestPersistTableDefinition.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373885428930" ignored="false" />
+    <file path="/LiquibaseServletListener.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373887799715" ignored="false" />
+    <file path="/TestLiquibase.java" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373957026995" ignored="false" />
+    <file path="/changelog.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373957848634" ignored="false" />
+    <file path="/changelog2.xml" changelist="af8f096c-dd45-437c-941e-9211916a57af" time="1373958250608" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +201,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/TestCustomizableEntities.java" line="38" class="com.motech.test.entityExtensions.TestCustomizableEntities" package="com.motech.test.entityExtensions">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/TestCustomizableEntities.java" line="32" class="com.motech.test.entityExtensions.TestCustomizableEntities" package="com.motech.test.entityExtensions">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -298,6 +306,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/lockservice/LockServiceImpl.java" line="96" class="liquibase.lockservice.LockServiceImpl" package="liquibase.lockservice">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java" line="96" class="liquibase.integration.commandline.Main" package="liquibase.integration.commandline">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -309,88 +347,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java">
+      <file leaf-file-name="TestLiquibase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/TestLiquibase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomEntityCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicEntityPersister.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="78" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractEntityPersister.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/persister/entity/AbstractEntityPersister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2410" column="0" selection-start="83676" selection-end="83676" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dialect.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/dialect/Dialect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="304" column="0" selection-start="13571" selection-end="13571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeNames.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/dialect/TypeNames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPersistCustomEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestPersistCustomEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPersistGeneratedPojoEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPersistGeneratedPojoEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="100" selection-start="897" selection-end="897" vertical-scroll-proportion="4.1538463">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#693#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PojoGenerator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.6454918">
+            <state line="45" column="31" selection-start="1829" selection-end="1850" vertical-scroll-proportion="2.5">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MOTECHTEST3.PUBLIC.DATABASECHANGELOG" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/4543b7ce/d949c881-a6f5-47b4-ac49-ab561fff86b2/MOTECHTEST3.PUBLIC.DATABASECHANGELOG">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="16" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbchangelog-3.0.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.0.2/liquibase-core-3.0.2.jar!/liquibase/parser/core/xml/dbchangelog-3.0.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="978" column="4" selection-start="37225" selection-end="37225" vertical-scroll-proportion="-7.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="583" column="0" selection-start="28965" selection-end="28965" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LockServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/lockservice/LockServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="44" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractJdbcDatabase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/database/AbstractJdbcDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="736" column="43" selection-start="29564" selection-end="29564" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -405,22 +429,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/Contact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/TestCustomizableEntities.java" />
-        <option value="$PROJECT_DIR$/target/classes/com/motech/test/Contact.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="db-console:/4543b7ce/01ededc7-a2fc-4e9b-a69e-8da720b6b70d/" />
-        <option value="db-console:/4543b7ce/ba7a7433-91ed-4457-bc7c-5e0ff7906723/" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/PojoGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestCustomEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/CustomEntityCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPOJOGeneration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPersistGeneratedPojoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/TestCustomizableEntities.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/persistEntityDefinition/com/motech/test/persistEntityDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/persistEntityDefinition/TableDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/persistEntityDefinition/TestPersistTableDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/persistEntityDefinition/TableDefinition.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions/Contact.hbm.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/TestLiquibase.java" />
       </list>
     </option>
   </component>
@@ -718,6 +742,50 @@
               <option name="myItemId" value="standalone-hibernate-jpa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.h2database:h2:1.3.172" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h2-1.3.172.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.h2database:h2:1.3.172" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h2-1.3.172.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -807,6 +875,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="persistEntityDefinition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Standalone-Hibernate-JPA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liquibase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone-hibernate-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Standalone-Hibernate-JPA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="entityExtensions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -853,7 +981,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.intentionPowerPack" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/h2database/h2/1.3.172/h2-1.3.172.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liquibase" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
@@ -871,11 +999,11 @@
       <recent name="com.motech.test.customEntity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/liquibase" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/persistEntityDefinition" />
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer/entity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/tuplizer" />
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test" />
-      <recent name="$PROJECT_DIR$/target" />
-      <recent name="$PROJECT_DIR$/target/classes/com/motech/test/CRUD" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/motech/test/entityExtensions" />
@@ -888,29 +1016,7 @@
       <recent name="com.motech.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPersistGeneratedPojoEntity">
-    <configuration default="false" name="StandaloneHibernateJPAExample" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jverstry.standalone.CRUD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.jverstry.standalone.CRUD.StandaloneHibernateJPAExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="standalone-hibernate-jpa" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestLiquibase">
     <configuration default="false" name="TestPersistCustomEntity" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -936,28 +1042,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestCustomizableEntities" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.motech.test.entityExtensions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.motech.test.entityExtensions.TestCustomizableEntities" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Hibernate_Standalone" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -991,6 +1075,56 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.motech.test.pojoGeneration.TestPersistGeneratedPojoEntity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hibernate_Standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestPersistTableDefinition" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.motech.test.persistEntityDefinition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.persistEntityDefinition.TestPersistTableDefinition" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hibernate_Standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestLiquibase" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.motech.test.liquibase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.motech.test.liquibase.TestLiquibase" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1109,18 +1243,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StandaloneHibernateJPAExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestPersistTableDefinition" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestLiquibase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestCustomizableEntities" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestLiquibase" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestPersistTableDefinition" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestPersistGeneratedPojoEntity" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestPersistCustomEntity" />
         <item index="4" class="java.lang.String" itemvalue="Application.TestQueryCustomFields" />
       </list>
     </recent_temporary>
@@ -1157,15 +1291,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.87920487" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23601148" sideWeight="0.5107034" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25382262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56727827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35779816" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1174,17 +1309,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27403155" sideWeight="0.64220184" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5107034" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2733142" sideWeight="0.44189602" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.87920487" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12079511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22453372" sideWeight="0.5107034" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48929664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.68501526" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1253,109 +1387,106 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/engine/ActionQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="6249" selection-end="6249" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/transaction/JDBCTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="19" selection-start="4766" selection-end="4766" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0">
+        <state line="12" column="70" selection-start="574" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/cfg/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/integration/spring/SpringLiquibase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2123" column="0" selection-start="71941" selection-end="71941" vertical-scroll-proportion="0.0">
+        <state line="220" column="18" selection-start="6407" selection-end="6407" vertical-scroll-proportion="-112.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/Person.java">
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/database/DatabaseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="59" column="20" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/4543b7ce/a705d97e-5c09-47f4-a075-ab1e747c9492/MOTECHTEST.PUBLIC.PERSON">
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/Liquibase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="28" selection-start="4634" selection-end="4634" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/lockservice/LockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/lockservice/LockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="44" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/database/AbstractJdbcDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="736" column="43" selection-start="29564" selection-end="29564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="583" column="0" selection-start="28965" selection-end="28965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.0.2/liquibase-core-3.0.2.jar!/liquibase/parser/core/xml/dbchangelog-3.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="978" column="4" selection-start="37225" selection-end="37225" vertical-scroll-proportion="-7.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/changelog2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4543b7ce/1e7f1ee2-d18d-4a5c-8fd9-9add6c8c2109/MOTECHTEST2.PUBLIC.DEPARTMENT">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/dialect/TypeNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/dialect/Dialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="304" column="0" selection-start="13571" selection-end="13571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-3.6.6.Final-sources.jar!/org/hibernate/persister/entity/AbstractEntityPersister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2410" column="0" selection-start="83676" selection-end="83676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/TestPersistCustomEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4543b7ce/a705d97e-5c09-47f4-a075-ab1e747c9492/MOTECHTEST.PUBLIC.NEW_PERSON">
+    <entry file="dbDummy://dbtable:/4543b7ce/1e7f1ee2-d18d-4a5c-8fd9-9add6c8c2109/MOTECHTEST2.PUBLIC.DATABASECHANGELOGLOCK">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/customEntity/CustomEntityCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/4543b7ce/1e7f1ee2-d18d-4a5c-8fd9-9add6c8c2109/MOTECHTEST2.PUBLIC.DATABASECHANGELOG">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/sql/Types.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="32" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/4543b7ce/d949c881-a6f5-47b4-ac49-ab561fff86b2/MOTECHTEST3.PUBLIC.DATABASECHANGELOG">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/TestPersistGeneratedPojoEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/liquibase/TestLiquibase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="100" selection-start="897" selection-end="897" vertical-scroll-proportion="4.1538463">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#693#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/DynamicEntityPersister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="78" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/motech/test/pojoGeneration/PojoGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="962" selection-end="962" vertical-scroll-proportion="0.6454918">
+        <state line="45" column="31" selection-start="1829" selection-end="1850" vertical-scroll-proportion="2.5">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

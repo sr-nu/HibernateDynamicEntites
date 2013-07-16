@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Maven: org.liquibase:liquibase-core:3.0.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.0.2/liquibase-core-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.0.2/liquibase-core-3.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.0.2/liquibase-core-3.0.2-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../liquibase/liquibase-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../liquibase/liquibase-osgi/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../liquibase/liquibase-maven-plugin/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

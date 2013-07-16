@@ -23,7 +23,7 @@ public class HibernateUtil {
 
     private synchronized SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
-            sessionFactory = getConfiguration().buildSessionFactory();
+            sessionFactory = getConfiguration(Contact.class).buildSessionFactory();
         }
         return sessionFactory;
     }
@@ -37,12 +37,12 @@ public class HibernateUtil {
         return session;
     }
 
-    public synchronized Configuration getConfiguration() {
+    public synchronized Configuration getConfiguration(Class persistentClass) {
         if (configuration == null) {
             System.out.print("configuring Hibernate ... ");
             try {
                 configuration = new Configuration().configure();
-                configuration.addClass(Contact.class);
+                configuration.addClass(persistentClass);
                 System.out.println("ok");
             } catch (HibernateException e) {
                 System.out.println("failure");
@@ -73,6 +73,6 @@ public class HibernateUtil {
     }
 
     public PersistentClass getClassMapping(Class entityClass){
-        return getConfiguration().getClassMapping(entityClass.getName());
+        return getConfiguration(Contact.class).getClassMapping(entityClass.getName());
     }
 }

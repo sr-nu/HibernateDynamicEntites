@@ -11,9 +11,10 @@
             <generator class="native"/>
         </id>
 
-        <property name="name" column="fld_name" type="string"/>
+        <property name="name" column="fld_name" type="string" />
 
         <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true">
+
         </dynamic-component>
     </class>
 </hibernate-mapping>

@@ -16,12 +16,6 @@ public class TestCustomizableEntities {
 
         contactEntityManager.addCustomField(TEST_FIELD_NAME);
 
-
-
-
-
-
-
         Session session = HibernateUtil.getInstance().getCurrentSession();
 
         Transaction tx = session.beginTransaction();
