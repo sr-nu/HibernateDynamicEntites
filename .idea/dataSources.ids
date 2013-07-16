@@ -308,33 +308,5 @@
       <column name="REMARKS" sqlType="VARCHAR" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
-    <table name="DATABASECHANGELOG" schema="PUBLIC" catalog="MOTECHTEST3" type="TABLE">
-      <column name="ID" sqlType="VARCHAR" length="63" precision="0" nullable="false" jdbcType="12"/>
-      <column name="AUTHOR" sqlType="VARCHAR" length="63" precision="0" nullable="false" jdbcType="12"/>
-      <column name="FILENAME" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
-      <column name="DATEEXECUTED" sqlType="TIMESTAMP" length="23" precision="10" nullable="false" jdbcType="93"/>
-      <column name="ORDEREXECUTED" sqlType="INTEGER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="EXECTYPE" sqlType="VARCHAR" length="10" precision="0" nullable="false" jdbcType="12"/>
-      <column name="MD5SUM" sqlType="VARCHAR" length="35" precision="0" nullable="true" jdbcType="12"/>
-      <column name="DESCRIPTION" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="COMMENTS" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="TAG" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="LIQUIBASE" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PK_DATABASECHANGELOG" columns="ID,AUTHOR,FILENAME"/>
-    </table>
-    <table name="DATABASECHANGELOGLOCK" schema="PUBLIC" catalog="MOTECHTEST3" type="TABLE">
-      <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="LOCKED" sqlType="BOOLEAN" length="1" precision="0" nullable="false" jdbcType="16"/>
-      <column name="LOCKGRANTED" sqlType="TIMESTAMP" length="23" precision="10" nullable="true" jdbcType="93"/>
-      <column name="LOCKEDBY" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PK_DATABASECHANGELOGLOCK" columns="ID"/>
-    </table>
-    <table name="DEPARTMENT" schema="PUBLIC" catalog="MOTECHTEST3" type="TABLE">
-      <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="NAME" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
-      <column name="ACTIVE" sqlType="BOOLEAN" length="1" precision="0" nullable="true" jdbcType="16" def="VFJVRQ=="/>
-      <column name="ADDRESS" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PK_DEPARTMENT" columns="ID"/>
-    </table>
   </data-source>
 </component>

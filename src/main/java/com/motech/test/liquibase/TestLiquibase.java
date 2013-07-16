@@ -57,7 +57,9 @@ public class TestLiquibase {
 
 
             liquibase.database.Database database = DatabaseFactory.getInstance().findCorrectDatabaseImplementation(new JdbcConnection(connection));
-            Liquibase liquibase = new Liquibase("/Users/srikanthnutigattu/IdeaProjects/Standalone-Hibernate-JPA/src/main/java/com/motech/test/liquibase/changelog2.xml", new CompositeResourceAccessor(clFO, fsFO, threadClFO), database);
+            Liquibase liquibase = new Liquibase("com/motech/test/liquibase/changelog.xml", new CompositeResourceAccessor(clFO, fsFO, threadClFO), database);
+
+
 
             liquibase.update("dev");
         } catch (SQLException e) {
